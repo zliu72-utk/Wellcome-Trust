@@ -145,7 +145,7 @@ This formulation allows the model to compare different electricity-pricing struc
 
 Indoor CO₂ concentration is modeled using a mass-balance equation:
 
-$$C^{CO_2}_t+\frac{\Delta t}{V}\left[G^{CO_2}_t+Q^{inf}_t\left(C^{CO_2,out}_t - C^{CO_2}_t\right)\right]$$
+$$C^{CO_2}_{t+1}=C^{CO_2}_t+\frac{\Delta t}{V}\left[G^{CO_2}_t+Q^{inf}_t\left(C^{CO_2,out}_t - C^{CO_2}_t\right)\right]$$
 
 where:
 
